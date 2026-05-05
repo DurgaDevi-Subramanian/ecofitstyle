@@ -1,0 +1,90 @@
+/* Ensure the body has no overflow */
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow on body */
+}
+
+.home {
+    text-align: center;
+    padding: 0rem 2rem 2rem; /* Adjust padding to account for fixed navbar */
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensure it takes up at least full viewport height */
+    position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.home-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none; /* Allow clicking through images */
+}
+
+.home-image {
+    width: 30%; /* Adjust size as needed */
+    height: auto;
+    pointer-events: none; /* Allow clicking through images */
+}
+
+.left-image {
+    position: absolute;
+    left: 0;
+	display: flex;
+	top: 275px;
+	width: 425px; /* Set the desired width in pixels */
+	height: 475px; /* Set the desired height in pixels */
+}
+
+.right-image {
+    position: absolute;
+    right: 0;
+	top: 260px;
+	width: 425px; /* Set the desired width in pixels */
+	height: 500px; /* Set the desired height in pixels */
+}
+
+.home h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #333;
+}
+
+.home .intro {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.home q {
+    font-size: 2rem;
+    color: #555;
+    line-height: 3.6;
+}
+
+.home .overview {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home .overview h3 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+}
+
+.home .overview p {
+    margin-bottom: 1rem;
+}

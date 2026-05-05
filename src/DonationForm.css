@@ -1,0 +1,77 @@
+.donation-form {
+    max-width: 400px;
+    margin: 5rem auto 2rem; /* Add top margin to account for the fixed navbar */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+	background-color: #fff;
+}
+
+.donation-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    text-align: center;
+	margin-left: 1cm;
+	margin-bottom: 1rem;
+	font-size: 24px; 
+}
+
+
+
+p {
+	margin-bottom: 1rem;
+	font-size: 18px; 
+}
+
+p1 {
+    text-align: right;
+	margin-left: 16.5cm;
+	margin-bottom: 1rem;
+	font-size: 34px; 
+}
+
+
+.donation-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.donation-form input[type="text"],
+.donation-form input[type="file"],
+.donation-form input[type="number"] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donation-form .button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between buttons */
+}
+
+.donation-form button {
+    width: 38%; /* Adjust width to fit two buttons */
+    padding: 0.7rem;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 80px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+	margin: .5rem;
+}
+
+.donation-form button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

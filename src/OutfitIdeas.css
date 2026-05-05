@@ -1,0 +1,23 @@
+.outfit-ideas {
+    padding: 5rem 2rem 2rem; /* Add top padding to account for the fixed navbar */
+    background-color: #f1f1f1;
+    min-height: 100vh; /* Ensure it takes up at least full viewport height */
+}
+
+.outfit-ideas h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.outfit-ideas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.outfit-ideas ul li {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
